@@ -1,0 +1,44 @@
+body{
+    background-image: url("bg.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  font-family: Century, Helvetica, sans-serif;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+  color: white;
+}
+
+img {
+  display: block;
+  margin: auto;
+  max-width: 250px;
+  height: auto;
+  border-radius: 0%;
+}
+
+.info {
+  margin-top: 20px;
+  color: white;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 30px;
+  color: white;
+}
+
+p {
+  margin: 10px 0;
+  color: white;
+}

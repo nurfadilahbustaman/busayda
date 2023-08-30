@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text.css">
+</head>
+
+<body>
+    <center>
+        <div class="container">
+            <ukuran font="4">
+                <h1>Portfolio</h1>
+            </ukuran><br>
+            <img src="ayda.jpg" width="150px" alt="">
+            <div class="info">
+                <ukuran font="5">
+                    <h2>AYDA NURFADILAH BUSTAMAN</h2>
+                </ukuran><br>
+                <button onclick="typeWriter()">klik</button>
+                <p id="typing"></p>
+                <script>
+                    var i = 0;
+                    var text = "HAI, Saya seorang pelajar dari smkn 4 bogor dengan keahlian atau kejuruan perangkat lunak.tapi saya tidak unggul dalam pembelajaran perangkat lunak ini, saya lebih suka mencaritahu tentang seni.";
+                    var speed = 50;
+
+                    function typeWriter() {
+                        if (i < text.length) {
+
+                            document.getElementById("typing").innerHTML += text.charAt(i);
+                            i++;
+                            setTimeout(typeWriter, speed)
+                        }
+                    }
+                </script>
+                <ul>
+                    <li><a href="bustamanayda@gmail"><img src="email.jpg" width="20px" height="20px"></a></li>
+                    <li><a href="https://instagram.com/adnrbsn?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><img
+                                src="instagram.jpg" width="20px" height="20px"></a></li>
+                </ul>
+    </center>
+    </div>
+    </div>
+</body>
+
+</html>
